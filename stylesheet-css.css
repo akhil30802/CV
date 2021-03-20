@@ -1,0 +1,157 @@
+body {
+  background-color: #cbffffff;
+  text-align: center;
+  margin: 0;
+  padding-top: 48px;
+}
+
+.above-cloud{
+  margin-left: 300px;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  color: #17bcbeff;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #17bcbeff;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+hr {
+  width: 6%;
+  border-style: dotted;
+  border-top: 6px dotted;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  border-color: grey;
+}
+
+
+.Topbox {
+  margin-right: 0;
+  position: relative;
+  background-color: #cbffffff;
+}
+
+.below-cloud{
+  margin-right: 300px;
+  position: absolute;
+}
+
+.Mainbox {
+  background-color: #e5fdfeff;
+
+}
+
+.intro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.reaper-img {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.Middlebox {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.code-img {
+  float: left;
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.middlebox-head {
+  text-align: left;
+  padding-top: 10px;
+}
+
+
+.division-midbox {
+  text-align: left;
+  margin: 50px auto 100px auto;
+  width: 50%;
+  line-height: 25px;
+}
+
+
+.chilli-img {
+  float: right;
+  border-radius: 100%;
+  width: 20%;
+  margin-left: 20px;
+
+}
+
+.middlebox-para {
+  text-align: left;
+}
+
+.wireframe-img {
+  float: left;
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  border-color: #66BFBF;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #66BFBF;
+}
+
+.button:hover {
+  background-color: #66BFBF;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.footerbox {
+  padding-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  background-color: #66BFBF;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.link:link {
+  font-family: 'Fira Sans', sans-serif;
+  color:  #11999E;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #11999E;
+}
+
+.link:hover {
+  color: white;
+  transition-duration: 0.2s;
+}

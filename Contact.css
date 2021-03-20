@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #cbffffff;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+.box {
+  width: 50%;
+
+  padding: 30px 5px 30px 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: #17bcbeff;
+  text-align: center;
+}
+
+label {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+input[type=text], input[type=email] {
+  border-color: #17bcbeff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+  border-width: 2.6px;
+  height: 100%;
+  margin: 0;
+  height: 25px;
+  background-color: #f9f9f9ff;
+
+}
+
+.cell-right {
+  text-align: right;
+}
+
+textarea {
+  border-color: #17bcbeff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+  border-width: 2.6px;
+  background-color: #f9f9f9ff;
+
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: #f9f9f9ff;
+  border-radius: 8px;
+  border-color: #66BFBF;
+  font-size: 1em;
+  text-align: center;
+  color: #66BFBF;
+}
+
+.button:hover {
+  background-color: #66BFBF;
+  transition-duration: 0.4s;
+  color: #f9f9f9ff;
+}
+
+table {
+  text-align: left;
+  margin: auto;
+
+}
